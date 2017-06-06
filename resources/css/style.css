@@ -6,17 +6,34 @@ html {
 body {
 	font-size: 18px;
 	font-family: Roboto, Arial, sans-serif;
+	line-height: 1.2;
+	width: 100%
 }
 
 h1 {
+	font-size: 2.25em;
+	font-weight: bold;
+}
+
+h2 {
 	font-size: 2em;
 }
 
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 0.75em;
+}
+
+
 .container {
-	width: 100%;
-	padding: 32px 0px 32px 24px;
 	display: flex;
-	align-items: center;
 }
 
 .button {
@@ -32,17 +49,15 @@ h1 {
 	width: 60%;
 }
 
+.left-column .big-image {
+	width: 100%;
+}
+
 .square-image {
-	width: 35%;
+	width: 38%;
 }
 
 .course-image {
-}
-
-.left-column {
-}
-
-.right-column {
 }
 
 .news-box {
@@ -96,12 +111,16 @@ header nav span a {
 /* Banner Section */
 .banner {
 	background-color: #d4ab6a;
-	padding-top: 64px;
+	width: 100%;
+	margin-top: 32px;
+	padding: 64px 0px 32px 24px;
+	display: flex;
+	align-items: center;
 }
 
 .content-items {
 	padding-left: 40px;
-	padding-right: 80px;
+	padding-right: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: left;
@@ -117,11 +136,122 @@ header nav span a {
 	margin-bottom: 32px;
 }
 
-
-
 /* Main Section */
+.main {
+	background-color: #ffdeaa;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+
+.left-column {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	align-items: flex-start;
+	padding: 32px 24px 32px 24px;
+}
+
+.right-column {
+	display: flex;
+	flex-wrap: wrap;
+	width: 423px;
+}
+
+.news-box {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	border-left: 2px solid #d4ab6a;
+	padding: 16px 0px 16px 16px;
+	margin-right: -2em;
+}
+
+.news-items {
+	width: 100%;
+	padding-left: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-column h2 {
+	margin-top: 32px;
+}
+
+.left-column p {
+	margin-top: 24px;
+}
+
+.left-column h5 {
+	margin-top: 32px;
+}
+
+.right-column span {
+	margin-top: 8px;
+}
+
+.read-more {
+	color: #805615;
+}
+
+.news-box.first-news {
+	padding-top: 32px;
+}
+
+.news-box.third-news {
+	background-color: #d4ab6a;
+}
+
 
 /* Courses Section */
+.courses {
+	background-color: #d4ab6a;;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 16px;
+}
+
+.courses .title {
+	margin: 32px auto 32px auto;
+}
+
+.all-courses-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.course-box {
+	width: 26%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0px 16px 16px 16px;
+}
+
+.course-image {
+	width: 100%;
+}
+
+.course-items {
+	padding: 16px 0px 24px 16px;
+}
+
+.course-items h3 {
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+
+.course-items h4 {
+	margin-bottom: 8px;
+}
+
+.course-items h5 {
+	margin-bottom: 8px;
+	font-size: 1em;
+}
 
 /* Quotes Section */
 
