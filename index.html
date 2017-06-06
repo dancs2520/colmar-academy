@@ -2,41 +2,42 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:500|Roboto" rel="stylesheet">
 	<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
 	<link href="./resources/css/style.css" type="text/css" rel="stylesheet">
 	<title>ColmarAcademy</title>
 </head>
 
 <body>
-	<header class="container">
-		<div class="navbar">
-			<div class="logo">
-				<img src="./resources/images/ic-logo.svg" alt="logo">
-				<span class="logo-colmar desktop">COLMAR</span><span class="logo-academy desktop">ACADEMY</span>
-			</div>
+	<header>
+		<div class="logo">
+			<img src="./resources/images/ic-logo.svg" alt="logo">
+			<span class="desktop">COLMAR</span><span class="logo-academy desktop">ACADEMY</span>
+		</div>
 
-			<nav class="desktop">
-				<span>Our Campus</span>
-				<span>Online</span>
-				<span>Our Companies</span>
-				<span>Sign in</span>
-			</nav>
+		<nav class="navbar desktop">
+			<span><a href="#">Our Campus</a></span>
+			<span><a href="#">Online</a></span>
+			<span><a href="#">Our Companies</a></span>
+			<span><a href="#">Sign in</a></span>
+		</nav>
 
 		<!--	<nav class="mobile">
 				<img src="./resources/images/ic-on-campus.svg">
 				<img src="./resources/images/ic-online.svg">
 				<img src="./resources/images/ic-login.svg">
 			</nav> -->
-		</div>
 	</header>
 
 	<div class="banner">
 		<div class="container">
+			<img class="big-image" src="./resources/images/banner.jpg">
 			<div class="content-items">
-				<img class="big-image" src="./resources/images/banner.jpg">
 				<h1>Learn something new everyday</h1>
 				<h3>Arms and the Heroes, who from Lisbon's shore.</h3>
-				<span class="button">Start Here</span>
+				<div class="button">
+					<span>Start Here</span>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -118,7 +119,7 @@
 		<div class="container">
 			<h2>Thesis exhibit</h2>			
 			<div class="left-column">
-				<video autoplay loop muted>
+				<video width="60%" autoplay loop muted>
 					<source src="./resources/videos/thesis.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
